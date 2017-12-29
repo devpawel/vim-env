@@ -35,7 +35,7 @@ set incsearch		" do incremental searching
 set relativenumber
 set number
 set scrolloff=10
-colorscheme wombat
+colorscheme xemacs
 
 " ~/.vimrc file
 " swap files (.swp) in a common location
