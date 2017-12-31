@@ -6,6 +6,6 @@
 ### Colorshemes:
 - https://github.com/flazz/vim-colorschemes
 
-### Articles:
+### Resources:
 - https://www.fullstackpython.com/vim.html
 - https://dougblack.io/words/a-good-vimrc.html
