@@ -7,4 +7,5 @@
 - https://github.com/flazz/vim-colorschemes
 
 ### Tutorials:
+- https://www.fullstackpython.com/vim.html
 - https://dougblack.io/words/a-good-vimrc.html
