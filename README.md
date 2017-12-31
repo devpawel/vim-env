@@ -1,5 +1,8 @@
 # vim-env
 
+### Vimrc
+- https://github.com/amix/vimrc
+
 ### Colorshemes:
 - https://github.com/flazz/vim-colorschemes
 
