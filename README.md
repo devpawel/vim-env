@@ -1,6 +1,7 @@
 # vim-env
 
-colorshemes: https://github.com/flazz/vim-colorschemes
+### Colorshemes:
+- https://github.com/flazz/vim-colorschemes
 
-tutorials:
+### Tutorials:
 - https://dougblack.io/words/a-good-vimrc.html
