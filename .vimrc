@@ -5,7 +5,7 @@
 " =============================
 "          Simple sets
 " =============================
-colorscheme xemacs                " theme
+colorscheme xemacs              " theme
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -84,6 +84,7 @@ if has("autocmd")
   
     " For all text files set 'textwidth' to 78 characters.
     autocmd FileType text setlocal textwidth=78
+    autocmd FileType python setlocal completeopt-=preview
   
     " When editing a file, always jump to the last known cursor position.
     " Don't do it when the position is invalid or when inside an event handler
@@ -180,6 +181,14 @@ map Q gq
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
 
+" open/close
+inoremap <leader>" ""<Esc>i
+inoremap <leader>' ''<Esc>i
+inoremap <leader>( ()<Esc>i
+inoremap <leader>[ []<Esc>i
+inoremap <leader>{ {}<Esc>i
+inoremap <leader>< <><Esc>i
+
 " }}}
 " Packages {{{
 " Add optional packages.
@@ -202,10 +211,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'           " fuzzy search
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'scrooloose/syntastic'
+Plug 'vim-syntastic/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
 Plug 'sjl/gundo.vim'
+Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
