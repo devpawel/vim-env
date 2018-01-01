@@ -27,7 +27,7 @@ Check powerline location path
     Location: ~/anaconda3/lib/python3.6/site-packages
     Requires: 
 
-Replace {Location} with location from pip powerline-status
+Replace {Location} with location from pip powerline-status.
 
 Vim statusline:
 Add following to your ~/.vimrc or /etc/vim/vimrc:
